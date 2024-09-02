@@ -1,1 +1,1 @@
-# sti-2024-summer
+# STI-2024-Summer
