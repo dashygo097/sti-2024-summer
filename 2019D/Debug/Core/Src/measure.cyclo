@@ -1,0 +1,15 @@
+../Core/Src/measure.c:22:6:LowPassFilter	2
+../Core/Src/measure.c:31:6:LowPassFilter_Maintain	2
+../Core/Src/measure.c:39:8:Calculate	2
+../Core/Src/measure.c:51:9:FastGet_Us	2
+../Core/Src/measure.c:69:9:FastGet_Ui	2
+../Core/Src/measure.c:87:8:FastGet_Uo1	2
+../Core/Src/measure.c:106:8:FastGet_Uo2	2
+../Core/Src/measure.c:125:6:Get_Us	14
+../Core/Src/measure.c:177:6:Get_Ui	14
+../Core/Src/measure.c:230:7:Get_Uo1	14
+../Core/Src/measure.c:283:7:Get_Uo2	14
+../Core/Src/measure.c:336:8:Get_Rin	1
+../Core/Src/measure.c:341:8:Get_Rout	1
+../Core/Src/measure.c:346:8:Get_Av	1
+../Core/Src/measure.c:352:6:fARelationship	2

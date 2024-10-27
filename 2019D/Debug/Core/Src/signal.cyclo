@@ -1,0 +1,6 @@
+../Core/Src/signal.c:13:9:Sinewave_GetSample	2
+../Core/Src/signal.c:25:9:Squarewave_GetSample	3
+../Core/Src/signal.c:38:9:FFT_ADC1	11
+../Core/Src/signal.c:79:10:RC_re	3
+../Core/Src/signal.c:107:9:FFT_ADC2	11
+../Core/Src/signal.c:147:9:FFT_ADC3	11

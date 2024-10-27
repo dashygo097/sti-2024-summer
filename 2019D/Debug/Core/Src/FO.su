@@ -1,0 +1,10 @@
+../Core/Src/FO.c:14:17:DFT	80	dynamic
+../Core/Src/FO.c:33:5:rev	40	static
+../Core/Src/FO.c:48:17:rev_copy	56	dynamic
+../Core/Src/FO.c:59:17:FFT	208	dynamic
+../Core/Src/FO.c:98:10:FFT_Mag	80	dynamic
+../Core/Src/FO.c:113:9:Square_Window	56	dynamic
+../Core/Src/FO.c:132:9:FFT_Bartlett	72	dynamic
+../Core/Src/FO.c:152:9:Hamming	88	dynamic
+../Core/Src/FO.c:173:9:FFT_Welch	80	dynamic
+../Core/Src/FO.c:190:9:Blackman	80	dynamic

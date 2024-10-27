@@ -1,0 +1,2 @@
+../Core/Src/judge.c:13:5:Get_State	16	static
+../Core/Src/judge.c:24:6:State_Out	16	static

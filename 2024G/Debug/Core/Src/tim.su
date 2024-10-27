@@ -1,0 +1,10 @@
+../Core/Src/tim.c:33:6:MX_TIM4_Init	48	static
+../Core/Src/tim.c:77:6:MX_TIM5_Init	40	static
+../Core/Src/tim.c:117:6:MX_TIM7_Init	24	static
+../Core/Src/tim.c:150:6:MX_TIM15_Init	40	static
+../Core/Src/tim.c:191:6:HAL_TIM_PWM_MspInit	24	static
+../Core/Src/tim.c:207:6:HAL_TIM_Base_MspInit	32	static
+../Core/Src/tim.c:248:6:HAL_TIM_MspPostInit	40	static
+../Core/Src/tim.c:276:6:HAL_TIM_PWM_MspDeInit	16	static
+../Core/Src/tim.c:292:6:HAL_TIM_Base_MspDeInit	16	static
+../Core/Src/tim.c:334:6:setFre	16	static
