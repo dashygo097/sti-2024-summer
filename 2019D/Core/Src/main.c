@@ -335,68 +335,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-//	  Get_Us();
-//	  ADC1_Get();
-//	  Get_Ui();
-//	  ADC1_Get();
-//	    	  Get_Uo1();
-//	    	  ADC1_Get();
-//	    	  Get_Uo2();
-//	    	  ADC1_Get();
-//	    	  Rin = Get_Rin();
-//		HAL_GPIO_WritePin(GPIOD,GPIO_PIN_14,GPIO_PIN_RESET);
-//		HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,GPIO_PIN_RESET);
-//		HAL_UART_Transmit(&huart1 ,(uint8_t *)"00\n", 3 , HAL_MAX_DELAY);
-//		HAL_Delay(3000);
-//		HAL_GPIO_WritePin(GPIOD,GPIO_PIN_14,GPIO_PIN_RESET);
-//				HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,GPIO_PIN_SET);
-//				HAL_UART_Transmit(&huart1 ,(uint8_t *)"01\n", 3 , HAL_MAX_DELAY);
-//				HAL_Delay(3000);
-//				HAL_GPIO_WritePin(GPIOD,GPIO_PIN_14,GPIO_PIN_SET);
-//						HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,GPIO_PIN_RESET);
-//						HAL_UART_Transmit(&huart1 ,(uint8_t *)"10\n", 3 , HAL_MAX_DELAY);
-//						HAL_Delay(3000);
-//						HAL_GPIO_WritePin(GPIOD,GPIO_PIN_14,GPIO_PIN_SET);
-//								HAL_GPIO_WritePin(GPIOD,GPIO_PIN_15,GPIO_PIN_SET);
-//								HAL_UART_Transmit(&huart1 ,(uint8_t *)"11\n", 3 , HAL_MAX_DELAY);
-//								HAL_Delay(3000);
-	  //ADC_FFT();
-//	  Us =FastGet_Us();
-//	  HAL_Delay(1000);
-//	  Uo1 =FastGet_Uo1();
-//		 sprintf(str_2 , "%.5f" , Us);
-//		 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"Us:", 3 , HAL_MAX_DELAY);
-//		 		 HAL_UART_Transmit(&huart1,(uint8_t *)str_2 , 7   ,HAL_MAX_DELAY);
-//		 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"V\n", 2 , HAL_MAX_DELAY);
-//		 		sprintf(str_2 , "%.5f" , Ui);
-//		 				 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"Ui:", 3 , HAL_MAX_DELAY);
-//		 				 		 HAL_UART_Transmit(&huart1,(uint8_t *)str_2 , 7   ,HAL_MAX_DELAY);
-//		 				 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"V\n", 2 , HAL_MAX_DELAY);
-//		 				 		sprintf(str_2 , "%.5f" , Uo1);
-//		 				 				 HAL_UART_Transmit(&huart1 ,(uint8_t *)"Uo1:", 4 , HAL_MAX_DELAY);
-//		 				 				 HAL_UART_Transmit(&huart1,(uint8_t *)str_2 , 7   ,HAL_MAX_DELAY);
-//		 				 				HAL_UART_Transmit(&huart1 ,(uint8_t *)"V\n", 2 , HAL_MAX_DELAY);
-//		 				 				sprintf(str_2 , "%.5f" , Uo2);
-//		 				 						 HAL_UART_Transmit(&huart1 ,(uint8_t *)"Uo2:", 4 , HAL_MAX_DELAY);
-//		 				 						 HAL_UART_Transmit(&huart1,(uint8_t *)str_2 , 7   ,HAL_MAX_DELAY);
-//
-//		 				 						HAL_UART_Transmit(&huart1 ,(uint8_t *)"V\n", 2 , HAL_MAX_DELAY);
-//	  Get_Uo1();
-//	  Get_Uo2();
-//	  Rin = Get_Rin();
-//	  Rout = Get_Rout();
-//	  Av = Get_Av();
-//	  for (int i = 0 ; i <250 ; i++)
-//	  {
-//			 wave[i] = i *0.001;
-//	  }
-//	  Screen_Show(Rin , Rout ,Av ,wave );
-//	  HAL_Delay(1000);
-//	  USART1PutString("x0.val=");
-//	      itostr(Rin*100,str_2);
-//	      USART1PutString(str_2);
-//	      USART1PutString("\xff\xff\xff");
-		 sprintf(str_2 , "%.5f" , Rin);
+	 sprintf(str_2 , "%.5f" , Rin);
 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"Rin:", 4 , HAL_MAX_DELAY);
 		 HAL_UART_Transmit(&huart1,(uint8_t *)str_2 , 7   ,HAL_MAX_DELAY);
 		 HAL_UART_Transmit(&huart1 ,(uint8_t *)"\n", 2 , HAL_MAX_DELAY);
