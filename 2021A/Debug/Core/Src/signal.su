@@ -1,0 +1,7 @@
+../Core/Src/signal.c:14:9:Sinewave_GetSample	65592	static
+../Core/Src/signal.c:26:9:Squarewave_GetSample	65592	static
+../Core/Src/signal.c:39:11:Sinewave_GetFrequence	64	static
+../Core/Src/signal.c:57:9:FFT_ADC1	136	static
+../Core/Src/signal.c:114:10:RC_re	56	dynamic
+../Core/Src/signal.c:142:9:FFT_ADC2	72	static
+../Core/Src/signal.c:182:9:FFT_ADC3	72	static
